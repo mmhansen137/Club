@@ -4,8 +4,22 @@ exit
 psql pythonclubdb
 \h for help
 \q to quit
+\i filename.sql to load (start psql with -s flag to single step)
 
 SELECT version();
 
 SELECT current_date;
+
+CREATE TABLE foo (
+
+	thing1		varchar(42),
+	thing2		int,
+	bar		real,
+	baz		date,
+	bonk		bigint,
+	oif		cidr,
+	zarf		inet,
+	finjan		macaddr
+);
+
 
