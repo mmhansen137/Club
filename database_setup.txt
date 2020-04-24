@@ -10,6 +10,7 @@ SELECT version();
 
 SELECT current_date;
 
+Example:
 CREATE TABLE foo (
 
 	thing1		varchar(42),
@@ -22,4 +23,11 @@ CREATE TABLE foo (
 	finjan		macaddr
 );
 
+Test table:
 
+pythonclubdb=> CREATE TABLE testtable (
+pythonclubdb(> testThing1  varchar(42),
+pythonclubdb(> testThing2  int,
+pythonclubdb(> testThing3  real
+pythonclubdb(> );
+CREATE TABLE
