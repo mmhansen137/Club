@@ -31,3 +31,9 @@ pythonclubdb(> testThing2  int,
 pythonclubdb(> testThing3  real
 pythonclubdb(> );
 CREATE TABLE
+
+New user:
+CREATE USER foo WITH PASSWORD 'b4rb4z!';
+
+FIX AUTH PROBLEM:
+ALTER ROLE postgres WITH PASSWORD 'P@ssw0rd1';
