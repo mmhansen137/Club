@@ -1,0 +1,11 @@
+sudo -u postgres -i
+createdb pythonclubdb
+exit
+psql pythonclubdb
+\h for help
+\q to quit
+
+SELECT version();
+
+SELECT current_date;
+
